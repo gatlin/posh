@@ -37,7 +37,6 @@ How do I use it?
     Jesus is cool
     Buddha is cool
     Shaft is cool
-
     posh> exit
     Goodbye!
 
