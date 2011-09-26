@@ -4,6 +4,7 @@ Posh
 A **P**erl **O**riented **Sh**ell.
 
 (c) 2011 Gatlin Johnson
+
 This is licensed under the Do What The Fuck You Want Public License.
 You may obtain a copy of the license [here](http://sam.zoy.org/wtfpl).
 
