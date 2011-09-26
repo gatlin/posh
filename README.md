@@ -38,7 +38,8 @@ How do I use it?
     Buddha is cool
     Shaft is cool
 
-    posh> 
+    posh> exit
+    Goodbye!
 
 This showcases the basic features.
 
