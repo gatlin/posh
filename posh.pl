@@ -21,6 +21,10 @@ my %fun;
     prompt => sub {
         print "$env{prompt}> ";
     },
+    lambda => sub {
+        my $fn = eval "sub {@_}";
+        $fn->(<>);
+    },
 );
 
 sub do_cmd {
