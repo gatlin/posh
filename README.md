@@ -21,6 +21,7 @@ Features
 *   You can write subs at run time
 *   Supports piping between commands
 *   You can rename the prompt!
+*   Lambda functions
 
 How do I use it?
 ----------------
@@ -37,6 +38,11 @@ How do I use it?
     Jesus is cool
     Buddha is cool
     Shaft is cool
+    posh> sub echo print @_;
+    posh> echo posh
+    posh
+    posh> echo gatlin | lambda print "$_[0] is a moron"
+    gatlin is a moron
     posh> exit
     Goodbye!
 
