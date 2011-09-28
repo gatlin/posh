@@ -57,6 +57,7 @@ while (<>) {
 
     chomp $in if $in;
     print "$in\n" if $in;
+    print "\n" if not $in;
     $fun{prompt}->();
 }
 
